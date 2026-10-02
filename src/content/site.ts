@@ -22,6 +22,10 @@ const mlsShots = [
   "1784873327711_204081392183455525_6380856099934285181_d33e0dfcd607c71346db91cad6b04398.jpg",
 ].map((file) => `/assets/shots/mls/${file}`);
 
+const qcdcShots = ["9.png", "10.png", "11.png", "12.png", "13.png"].map(
+  (file) => `/assets/shots/qcdc/${file}`,
+);
+
 export const profile = {
   name: "Phạm Trọng Hải",
   role: "Kỹ sư phần mềm và chuyên gia GIS/Bản đồ",
@@ -217,16 +221,28 @@ export const projects: Project[] = [
   {
     slug: "quy-chu",
     name: "Quy chủ địa chính",
-    tagline: "Quản lý đất đai",
-    oneLiner: "Ứng dụng GIS cho công tác quản lý đất đai.",
-    summary: "Ứng dụng chuyên ngành GIS phục vụ công tác quản lý đất đai.",
-    detail: "Hệ thống quy chủ địa chính là ứng dụng GIS chuyên ngành, phục vụ công tác quản lý đất đai.",
-    highlights: ["GIS chuyên ngành cho quản lý đất đai."],
+    tagline: "Khảo sát địa chính",
+    oneLiner:
+      "Thu thập điểm khảo sát địa chính trên bản đồ, đính kèm hồ sơ và đồng bộ khi có mạng.",
+    summary:
+      "Thu thập điểm khảo sát ngoài thực địa: định vị, ghi chú, ảnh và PDF, quét QR căn cước, lưu trên máy và đồng bộ lên máy chủ đơn vị vận hành.",
+    detail:
+      "Quy chủ địa chính thu thập điểm khảo sát địa chính ngoài thực địa: định vị trên bản đồ, ghi chú, đính kèm ảnh và PDF, quét QR căn cước của chủ sở hữu, lưu trên máy và đồng bộ lên máy chủ của đơn vị vận hành khi có mạng.\n\nBản đồ nền được tải về máy theo địa bàn được phân công. Tài khoản dùng thử không đẩy điểm và tệp lên máy chủ.",
+    highlights: [
+      "Định vị trên bản đồ, ghi điểm khảo sát và tải bản đồ nền dùng offline.",
+      "Đính kèm ảnh, PDF, giấy chứng nhận và quét QR căn cước của chủ sở hữu.",
+      "Lưu trên máy, đồng bộ khi có mạng. Chính sách quyền riêng tư công khai.",
+    ],
     stack: [],
-    links: {},
-    image: "",
-    featured: false,
+    links: {
+      docs: "/privacy/quy-chu",
+    },
+    image: qcdcShots[0],
+    gallery: qcdcShots,
+    fit: "content",
+    featured: true,
     year: "",
+    active: true,
   },
   {
     slug: "mo-liet-si",
@@ -294,7 +310,7 @@ export const projects: Project[] = [
 
 export const WEB_PROJECTS: string[] = [];
 
-export const FEATURED_ORDER = ["cham-cong", "mo-liet-si"];
+export const FEATURED_ORDER = ["cham-cong", "mo-liet-si", "quy-chu"];
 
 export const research = {
   title: "Trắc địa và Bản đồ",

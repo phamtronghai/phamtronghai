@@ -264,6 +264,8 @@ export default function AttendancePolicyPage() {
         </ul>
         <p>
           Chính sách ứng dụng còn lại: <Link href="/privacy/mo-liet-si">Mộ liệt sĩ</Link>
+          {" · "}
+          <Link href="/privacy/quy-chu">Quy chủ địa chính</Link>
         </p>
       </PolicySection>
     </PolicyLayout>

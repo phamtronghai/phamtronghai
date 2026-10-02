@@ -1,6 +1,6 @@
 # Phạm Trọng Hải
 
-Trang cá nhân: kỹ sư phần mềm và GIS. Chính sách ứng dụng nằm trong site tại `/privacy/attendance` và `/privacy/mo-liet-si`.
+Trang cá nhân: kỹ sư phần mềm và GIS. Chính sách ứng dụng nằm trong site tại `/privacy/attendance`, `/privacy/mo-liet-si` và `/privacy/quy-chu`.
 
 ```bash
 npm install

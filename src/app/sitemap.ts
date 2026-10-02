@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact", priority: 0.6, freq: "yearly" },
     { path: "/privacy/attendance", priority: 0.5, freq: "yearly" },
     { path: "/privacy/mo-liet-si", priority: 0.5, freq: "yearly" },
+    { path: "/privacy/quy-chu", priority: 0.5, freq: "yearly" },
   ];
 
   const projectRoutes = projects.map((p) => ({

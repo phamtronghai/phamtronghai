@@ -57,6 +57,7 @@ export function CommandPalette() {
       { id: "contact", group: "Đi tới", label: "Liên hệ", keywords: "email dien thoai", run: () => go("/contact") },
       { id: "policy-attendance", group: "Đi tới", label: "Chính sách AttendanceByFace", keywords: "privacy cham cong", run: () => go("/privacy/attendance") },
       { id: "policy-mls", group: "Đi tới", label: "Chính sách Mộ liệt sĩ", keywords: "privacy liet si", run: () => go("/privacy/mo-liet-si") },
+      { id: "policy-qcdc", group: "Đi tới", label: "Chính sách Quy chủ địa chính", keywords: "privacy dia chinh quy chu", run: () => go("/privacy/quy-chu") },
     ];
     const projectCmds: Cmd[] = projects.map((p) => ({
       id: `project-${p.slug}`,

@@ -323,6 +323,8 @@ export default function MoLietSiPolicyPage() {
         </ul>
         <p>
           Chính sách ứng dụng còn lại: <Link href="/privacy/attendance">AttendanceByFace</Link>
+          {" · "}
+          <Link href="/privacy/quy-chu">Quy chủ địa chính</Link>
         </p>
       </PolicySection>
     </PolicyLayout>
