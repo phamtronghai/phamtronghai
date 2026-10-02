@@ -1,0 +1,8 @@
+/* TEAM */
+  Developer: Phạm Trọng Hải
+  Email: dev.pth@icloud.com
+  GitHub: https://github.com/phamtronghai/phamtronghai.github.io
+  Location: Hải Phòng, Việt Nam
+
+/* SITE */
+  Stack: Next.js, React, TypeScript, Tailwind CSS
